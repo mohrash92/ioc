@@ -1,5 +1,5 @@
 {
-  "name": "ioc",
+  "name": "ioc-container-mo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
