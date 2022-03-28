@@ -1,8 +1,9 @@
 # What is Inversion of Control
-Inversion of Control design principle refers to inverting any additional responsibilities, other than the main responsibility. The idea is that Classes for example do not create other objects/dependencies on which they reply to do their work. Instead, they get them from an outside source. Some of the main benefits this brings is that:
+Inversion of Control design principle refers to inverting any additional responsibilities, other than the main responsibility. The idea is that Classes for example do not create other objects/dependencies on which they rely to do their work. Instead, they get them from an outside source. Some of the main benefits this brings is that:
 
+-   It means that we are following Dependency Injection technique in which an object receives other objects that it depends on
 -	It increases the modularity of the program
--   Can manage object life-cycle i.e singleton
+-   It means that we can manage object life-cycle i.e singleton
 -	We depend more in abstractions rather than concrete implementations
 -	It promotes loosely coupled architecture which is good for testing
 
