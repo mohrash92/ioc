@@ -15,7 +15,7 @@ An IoC container is a way to create an object which houses all of the dependency
 
 ## Getting Started
 - Insall the app using npm: `npm i ioc-container-mo`
-- Import class in your desired place: `const Container = require('ioc-container-mo')`
+- Import the Class in your desired file: `const Container = require('ioc-container-mo')`
 
 ## API
 
