@@ -14,7 +14,7 @@ An IoC container is a way to create an object which houses all of the dependency
 [![npm version](https://badge.fury.io/js/ioc-container-mo.svg)](https://badge.fury.io/js/ioc-container-mo)
 
 ## Getting Started
-- Insall the app using npm: `npm i ioc-container-mo`
+- Install the app using npm: `npm i ioc-container-mo`
 - Import the Class in your desired file: `const Container = require('ioc-container-mo')`
 
 ## API
@@ -27,7 +27,7 @@ Args:
 
 - `name`: name a name given for the Class
 - `registrationValue`: registrationValue the actual Class
-- `dependencies`: the dependencies for that class contructor
+- `dependencies`: the dependencies for that class constructor
 - `isSingleton`: specify if the class is singleton for instantiating once
 
 ### `resolve()`
