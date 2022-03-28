@@ -9,7 +9,7 @@ Inversion of Control design principle refers to inverting any additional respons
 
 
 # IOC Container Mo
-An IoC container is a way to create an object which houses all of the dependency objects and then using them when specified. You simply create a container using the `register()` method and then simply call the `resolve()` method when you want to use the instantiated value. More examples below and in [examples](https://github.com/mohrash92/ioc/blob/main/examples/class-example.js)
+An IoC container is a way to create an object which houses all of the dependency objects and then using them when specified. You simply create a container using the `register()` method and then simply call the `resolve()` method when you want to use the instantiated value. You can see some examples [here](https://github.com/mohrash92/ioc/blob/main/examples)
 
 [![npm version](https://badge.fury.io/js/ioc-container-mo.svg)](https://badge.fury.io/js/ioc-container-mo)
 
