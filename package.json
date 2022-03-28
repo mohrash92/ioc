@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
     "lint": "eslint . --ext .js"
   },
   "author": "Mohamed Rashid",

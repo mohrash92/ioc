@@ -38,3 +38,16 @@ Args:
 
 - `name`: the name of the class that was set during registration
 
+## Dev setup
+
+Prerequisites: 
+
+I developed the app using Node `v14.0.0`
+
+- Clone the Repo
+- Navigate into `/ioc`
+- Install the dependencies: `npm install`
+- Run all jest tests using `npm run test`
+- Run all tests when developing in watch mode `npm run test:watch`
+- Run eslint using `npm lint`
+
