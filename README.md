@@ -25,10 +25,10 @@ Creates a registration for a given class/object
 
 Args:
 
-- `name`: name a name given for the Class.
-- `registrationValue`: registrationValue the actual Class.
-- `dependencies`: the dependencies for that class contructor.
-- `isSingleton`: specify if the class is singleton for instantiating once.
+- `name`: name a name given for the Class
+- `registrationValue`: registrationValue the actual Class
+- `dependencies`: the dependencies for that class contructor
+- `isSingleton`: specify if the class is singleton for instantiating once
 
 ### `resolve()`
 
@@ -36,5 +36,5 @@ Returns instantiated value of Class.
 
 Args:
 
-- `name`: the name of the class that was set during registration.
+- `name`: the name of the class that was set during registration
 
