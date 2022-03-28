@@ -1,7 +1,7 @@
 {
   "name": "ioc-container-mo",
   "version": "2.0.3",
-  "description": "",
+  "description": "An IoC container",
   "main": "index.js",
   "scripts": {
     "test": "jest",
