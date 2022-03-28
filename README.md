@@ -36,5 +36,5 @@ Returns instantiated value of Class.
 
 Args:
 
-- `name` the name of the class that was set during registration.
+- `name`: the name of the class that was set during registration.
 
