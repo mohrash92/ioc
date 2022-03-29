@@ -63,12 +63,20 @@ describe('Container', () => {
   });
 
   describe('resolve', () => {
-    it('should return instantiated object of sepcified class', () => {
+    it('should return instantiated object of specified class', () => {
       const container = new Container();
       container.register('foo', Foo, { bar: false });
       const instantiatedValue = container.resolve('foo');
 
       expect(instantiatedValue).toEqual({ test: 'test' });
+    });
+
+    it('should throw error when name is not passed to resolve()', () => {
+      const container = new Container();
+
+      expect(() => {
+        container.resolve();
+      }).toThrow('Please provide a name when using resolve()');
     });
 
     it('should throw Error when class is not registered', () => {

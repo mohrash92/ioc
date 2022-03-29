@@ -40,6 +40,12 @@ class Container {
   resolve(name) {
     const current = this.registrationMap.get(name);
 
+    if (!name) {
+      throw new Error(
+          'Please provide a name when using resolve()',
+      );
+    }
+
     if (!current) {
       throw new Error(
         'Please check the class you are trying to resolve as it does not exist',
