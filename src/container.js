@@ -7,7 +7,7 @@ class Container {
   /**
    * Register Class in the Container
    * @param {String} name a name given for the Class.
-   * @param {Object || String} registrationValue the actual Class.
+   * @param {Object} registrationValue the actual Class.
    * @param {Array} dependencies the dependencies for that class constructor.
    * @param {Boolean} isSingleton specify if the class is singleton for instantiating once.
    * @returns {void}

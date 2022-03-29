@@ -49,5 +49,5 @@ I developed the app using Node `v14.0.0`
 - Install the dependencies: `npm install`
 - Run all jest tests using `npm run test`
 - Run all tests when developing in watch mode `npm run test:watch`
-- Run eslint using `npm lint`
+- Run eslint using `npm run lint`
 
