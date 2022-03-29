@@ -66,9 +66,9 @@ describe('Container', () => {
     it('should return instantiated object of sepcified class', () => {
       const container = new Container();
       container.register('foo', Foo, { bar: false });
-      const instatiatedValue = container.resolve('foo');
+      const instantiatedValue = container.resolve('foo');
 
-      expect(instatiatedValue).toEqual({ test: 'test' });
+      expect(instantiatedValue).toEqual({ test: 'test' });
     });
 
     it('should throw Error when class is not registered', () => {
@@ -96,8 +96,8 @@ describe('Container', () => {
 
       container.register('foo', Bar, { bar: false }, isSingleton);
 
-      const newInstaceValue = container.resolve('foo');
-      expect(newInstaceValue).toEqual({ test: 'test' });
+      const newInstanceValue = container.resolve('foo');
+      expect(newInstanceValue).toEqual({ test: 'test' });
     });
 
     it('should set the dependencies of the class when set', () => {
