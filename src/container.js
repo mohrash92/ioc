@@ -27,7 +27,7 @@ class Container {
       );
     } else {
       throw new Error(
-        'Pease check dependency type, you must only register a class or object',
+        'Please check dependency type, you must only register a class or object',
       );
     }
   }
@@ -35,14 +35,14 @@ class Container {
   /**
    * Resolves a given Class or Object
    * @param {String} name the name of the class that was set during registration.
-   * @returns Instantiated value of class
+   * @returns any value of class
    */
   resolve(name) {
     const current = this.registrationMap.get(name);
 
     if (!current) {
       throw new Error(
-        'Pease check the class you are trying to resolve as it does not exist',
+        'Please check the class you are trying to resolve as it does not exist',
       );
     }
 

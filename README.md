@@ -25,10 +25,10 @@ Creates a registration for a given class/object
 
 Args:
 
-- `name`: name a name given for the Class
-- `registrationValue`: registrationValue the actual Class
-- `dependencies`: the dependencies for that class constructor
-- `isSingleton`: specify if the class is singleton for instantiating once
+- `name`: String (required) a name given for the Class
+- `registrationValue`: Object (required) registrationValue the actual Class
+- `dependencies`: Array (optional) the dependencies for that class constructor
+- `isSingleton`: Boolean (optional) specify if the class is singleton for instantiating once
 
 ### `resolve()`
 
@@ -36,7 +36,7 @@ Returns instantiated value of Class.
 
 Args:
 
-- `name`: the name of the class that was set during registration
+- `name`: String (required) the name of the class that was set during registration
 
 ## Dev setup
 
@@ -45,7 +45,7 @@ Prerequisites:
 I developed the app using Node `v14.0.0`
 
 - Clone the Repo
-- Navigate into `/ioc`
+- Navigate into `ioc/`
 - Install the dependencies: `npm install`
 - Run all jest tests using `npm run test`
 - Run all tests when developing in watch mode `npm run test:watch`

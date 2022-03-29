@@ -58,7 +58,7 @@ describe('Container', () => {
 
       expect(() => {
         container.register('foo', 1);
-      }).toThrow('Pease check dependency type, you must only register a class or object');
+      }).toThrow('Please check dependency type, you must only register a class or object');
     });
   });
 
@@ -76,7 +76,7 @@ describe('Container', () => {
 
       expect(() => {
         container.resolve('class-does-not-exist');
-      }).toThrow('Pease check the class you are trying to resolve as it does not exist');
+      }).toThrow('Please check the class you are trying to resolve as it does not exist');
     });
 
     it('should not allow overriding of singleton class', () => {
