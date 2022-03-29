@@ -42,7 +42,7 @@ class Container {
 
     if (!name) {
       throw new Error(
-          'Please provide a name when using resolve()',
+        'Please provide a name when using resolve()',
       );
     }
 
